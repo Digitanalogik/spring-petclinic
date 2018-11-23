@@ -1,6 +1,6 @@
-### Spring Framework Guru
+## Spring Framework Guru
 ## Pet Clinic
-# Sample App
+### Sample App
 
 ...
 
