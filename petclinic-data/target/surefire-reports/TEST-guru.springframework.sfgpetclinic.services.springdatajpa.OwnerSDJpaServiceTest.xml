@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="guru.springframework.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.288" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="guru.springframework.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.604" tests="7" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="idea.version" value="2018.3.4"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.1+13"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-11.0.1/lib"/>
@@ -15,7 +14,7 @@
     <property name="user.country" value="FI"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/tatu/IdeaProjects/petclinic/petclinic-data"/>
+    <property name="user.dir" value="/home/tatu/IdeaProjects/petclinic"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.1+13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
@@ -24,24 +23,26 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/opt/ideaIU/idea-IU-183.4284.148/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="classworlds.conf" value="/opt/apache-maven/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/opt/apache-maven/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="4.15.0-39-generic"/>
+    <property name="library.jansi.path" value="/opt/apache-maven/lib/jansi-native"/>
     <property name="user.home" value="/home/tatu"/>
     <property name="user.timezone" value="Europe/Helsinki"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="11"/>
     <property name="user.name" value="tatu"/>
-    <property name="java.class.path" value="/opt/ideaIU/idea-IU-183.4284.148/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="/opt/apache-maven/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.3.4 test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher integration-test"/>
     <property name="java.home" value="/usr/lib/jvm/jdk-11.0.1"/>
     <property name="user.language" value="fi"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -50,7 +51,7 @@
     <property name="java.version" value="11.0.1"/>
     <property name="securerandom.source" value="file:/dev/./urandom"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/opt/ideaIU/idea-IU-183.4284.148/plugins/maven/lib/maven3"/>
+    <property name="maven.home" value="/opt/apache-maven"/>
     <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2018-10-16"/>
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
@@ -60,10 +61,11 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="delete" classname="guru.springframework.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.28"/>
-  <testcase name="findAll" classname="guru.springframework.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.001"/>
-  <testcase name="findById" classname="guru.springframework.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0"/>
-  <testcase name="save" classname="guru.springframework.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0"/>
-  <testcase name="findByLastName" classname="guru.springframework.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0"/>
-  <testcase name="deleteById" classname="guru.springframework.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0"/>
+  <testcase name="delete" classname="guru.springframework.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.579"/>
+  <testcase name="findAll" classname="guru.springframework.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.004"/>
+  <testcase name="findById" classname="guru.springframework.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.002"/>
+  <testcase name="save" classname="guru.springframework.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.001"/>
+  <testcase name="findByLastName" classname="guru.springframework.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.002"/>
+  <testcase name="findByIdNotFound" classname="guru.springframework.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.001"/>
+  <testcase name="deleteById" classname="guru.springframework.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.001"/>
 </testsuite>
